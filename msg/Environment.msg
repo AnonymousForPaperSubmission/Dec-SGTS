@@ -1,0 +1,64 @@
+#This represents the environment information
+
+Header header
+
+int32 time_step
+
+#task infor
+int32 task_0_pose_ID
+int32 task_0_infor_ID
+int32 task_0_infor_value
+int32 task_1_pose_ID
+int32 task_1_infor_ID
+int32 task_1_infor_value
+int32 task_2_pose_ID
+int32 task_2_infor_ID
+int32 task_2_infor_value
+int32 task_3_pose_ID
+int32 task_3_infor_ID
+int32 task_3_infor_value
+int32 task_4_pose_ID
+int32 task_4_infor_ID
+int32 task_4_infor_value
+int32 task_5_pose_ID
+int32 task_5_infor_ID
+int32 task_5_infor_value
+int32 task_6_pose_ID
+int32 task_6_infor_ID
+int32 task_6_infor_value
+int32 task_7_pose_ID
+int32 task_7_infor_ID
+int32 task_7_infor_value
+int32 task_8_pose_ID
+int32 task_8_infor_ID
+int32 task_8_infor_value
+int32 task_9_pose_ID
+int32 task_9_infor_ID
+int32 task_9_infor_value
+int32 task_10_pose_ID
+int32 task_10_infor_ID
+int32 task_10_infor_value
+int32 task_11_pose_ID
+int32 task_11_infor_ID
+int32 task_11_infor_value
+int32 task_12_pose_ID
+int32 task_12_infor_ID
+int32 task_12_infor_value
+int32 task_13_pose_ID
+int32 task_13_infor_ID
+int32 task_13_infor_value
+int32 task_14_pose_ID
+int32 task_14_infor_ID
+int32 task_14_infor_value
+int32 task_15_pose_ID
+int32 task_15_infor_ID
+int32 task_15_infor_value
+int32 task_16_pose_ID
+int32 task_16_infor_ID
+int32 task_16_infor_value
+int32 task_17_pose_ID
+int32 task_17_infor_ID
+int32 task_17_infor_value
+
+
+

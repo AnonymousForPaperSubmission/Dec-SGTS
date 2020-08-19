@@ -1,0 +1,32 @@
+<launch>
+    <!--initial_roobt_poses can be chosen from: 0, 187, 293-->
+    <node pkg="dec_sgts" type="dec_mcts_node.py" name="robot_0" output="screen">
+        <rosparam>
+            robot_ID: 0
+            robot_number: 3
+            initial_robot_pose_0: 187
+            initial_robot_pose_1: 187
+            initial_robot_pose_2: 187
+        </rosparam>
+    </node>
+    
+    <node pkg="dec_sgts" type="dec_mcts_node.py" name="robot_1">
+        <rosparam>
+            robot_ID: 1
+            robot_number: 3
+            initial_robot_pose_0: 187
+            initial_robot_pose_1: 187
+            initial_robot_pose_2: 187
+        </rosparam>
+    </node>
+    
+    <node pkg="dec_sgts" type="dec_mcts_node.py" name="robot_2">
+        <rosparam>
+            robot_ID: 2
+            robot_number: 3
+            initial_robot_pose_0: 187
+            initial_robot_pose_1: 187
+            initial_robot_pose_2: 187
+        </rosparam>
+    </node>
+</launch>
