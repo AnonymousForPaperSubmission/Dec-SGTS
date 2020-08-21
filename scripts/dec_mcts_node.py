@@ -7,11 +7,14 @@ import sys
 import copy
 import rospy
 import pdb
+import intention
 from dec_sgts.msg import Decide
 from dec_sgts.msg import ActionSequence
 from dec_sgts.msg import ActionSequenceProbability
 from dec_sgts.msg import Policy
 from numpy import * 
+from pc_belief import update_intention
+
 
 SCALAR = math.sqrt(2.0)#balance the exploration and exploitation
 #BUDGET = 40000#iterative budget for the tree growth
